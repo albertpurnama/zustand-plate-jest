@@ -6,17 +6,35 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@types/jest": "^29.5.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
+    "@udecode/plate": "^20.6.3",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "next": "13.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "slate": "^0.93.0",
+    "slate-history": "^0.93.0",
+    "slate-hyperscript": "^0.77.0",
+    "slate-react": "^0.93.0",
+    "styled-components": "^5.3.9",
+    "typescript": "5.0.4",
+    "zustand": "^4.3.7"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.1.0"
   }
 }
